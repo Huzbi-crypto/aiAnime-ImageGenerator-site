@@ -12,3 +12,10 @@ Credits for the model goes to [Ojimi](https://huggingface.co/Ojimi/anime-kawai-d
 
 1. You can `git clone` this repo,
 2. Open the `script.js` file and change the value where it says `apiKey` with your own huggingface api (it's free!), generate the images.
+
+
+### Visiting the Site
+
+You can directly visit the [site](https://huzbi-animeartai.vercel.app/) to check it out!
+
+#### Please be patient with generating, sometimes the generation can fail due to unsucessful resource fetch.
