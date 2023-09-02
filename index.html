@@ -1,0 +1,43 @@
+<!-- Author: Huzefa Huzbi -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AI Anime Art | Huzbi Project</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Huzbi AI Anime Art Generator</h1>
+        <p>Write your prompt here to generate images with power 
+            of Ai, For example : "1girl, animal ears, long hair, 
+            solo, cat ears, choker, bare shoulders, red eyes, 
+            fang, looking at viewer, animal ear fluff, upper body, 
+            black hair, blush, closed mouth, off shoulder, bangs, 
+            bow, collarbone". Please be patient as sometimes fetching resources could
+            take time or fail.</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="Type your prompt here..." autocomplete="off">
+            <button type="button" id="generate">Generate</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">Generating...</div>
+            <div id="image-grid"></div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Created by Huzbi.</p>
+        <a class="source-code" href="#">Source Code</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
