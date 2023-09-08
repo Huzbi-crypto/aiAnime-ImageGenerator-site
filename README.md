@@ -4,7 +4,7 @@ This is the public repo for the AI generated anime art site that I've created as
 
 It uses the huggingface api key to use the model.
 
-Credits for the model goes to [Ojimi](https://huggingface.co/Ojimi/anime-kawai-diffusion).
+Credits for the model goes to [Linaqruf](https://huggingface.co/Linaqruf/anything-v3.0).
 
 ## Instructions
 
