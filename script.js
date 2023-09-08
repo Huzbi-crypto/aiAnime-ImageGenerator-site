@@ -40,7 +40,7 @@ async function generateImages(input) {
         const prompt = `${input} ${randomNumber}`;
         // We added random number to prompt to create different results
         const response = await fetch(
-            "https://api-inference.huggingface.co/models/Ojimi/anime-kawai-diffusion",
+            "https://api-inference.huggingface.co/models/Linaqruf/anything-v3.0",
             {
                 method: "POST",
                 headers: {
