@@ -1,4 +1,4 @@
-const apiKey = "YOUR_HUGGINGFACE_PUBLIC_API_KEY";
+const apiKey = "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";
 
 const maxImages = 4; // Number of images to generate for each prompt
 let selectedImageNumber = null;
